@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Dhananjay Kumar",
-  title: "Hi all, I'm Dhananjay 👋",
+  title: "Hi all, I'm Dhananjay",
   subTitle:
     "Software Developer with experience in Android development, problem solving, and robotics/embedded systems. I build Android apps using Java & Kotlin and enjoy Competitive Programming and Computer Vision.",
   resumeLink: "resume.pdf",
@@ -72,15 +72,32 @@ const educationInfo = {
       schoolName: "Indian Institute of Information Technology (IIIT), Surat",
       logo: require("./assets/images/iiit-surat.png"),
       subHeader: "B.Tech in Electronics and Communication Engineering",
-      duration: "2022 - 2026 (Expected)",
+      duration: "2023 - 2027 (Expected)",
       desc: "Current CGPA: 8.04",
       descBullets: [
         "Active in MARC Robotics Club and GDG activities",
         "Focus: DSA, Android Development, Competitive Programming",
       ],
     },
+    {
+      schoolName: "Vikas Vidyalaya, Dumri",
+      logo: require("./assets/images/school12.png"),
+      subHeader: "Higher Secondary (11th & 12th)",
+      duration: "2021 - 2023",
+      desc: "Class 12 Percentage: 78.8%",
+      descBullets: ["Completed 11th and 12th standard"],
+    },
+    {
+      schoolName: "Doon Senior Secondary School, Muzaffarpur",
+      logo: require("./assets/images/school10.png"),
+      subHeader: "Secondary School (Till 10th)",
+      duration: "2020 - 2021",
+      desc: "Class 10 Percentage: 57.8%",
+      descBullets: ["Completed schooling till 10th standard"],
+    },
   ],
 };
+
 
 
 // Your top 3 proficient stacks/tech experience
@@ -185,7 +202,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "GitHub",
-          url: "https://github.com/Dhananjay810",
+          url: "https://github.com/Dhananjay810/Notes",
         },
       ],
     },
@@ -197,7 +214,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "GitHub",
-          url: "https://github.com/Dhananjay810",
+          url: "https://github.com/Dhananjay810/Foody",
         },
       ],
     },
@@ -209,7 +226,31 @@ const bigProjects = {
       footerLink: [
         {
           name: "GitHub",
-          url: "https://github.com/Dhananjay810",
+          url: "https://github.com/Dhananjay810/Leaf_detection",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/news.png"),
+      projectName: "News App (Search + Categories)",
+      projectDesc:
+        "Developed a News App where users can search news of any kind. Built using Jetpack Compose UI and Retrofit for API integration.",
+      footerLink: [
+        {
+          name: "GitHub",
+          url: "https://github.com/Dhananjay810/TazzaKhabhar",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/todo.png"),
+      projectName: "To-Do App (Auth + Firebase + Room)",
+      projectDesc:
+        "Built a To-Do app with Email signup + Google/Facebook login. Users can create, delete and complete tasks. Integrated Firebase Authentication, DataStore and Room Database.",
+      footerLink: [
+        {
+          name: "GitHub",
+          url: "https://github.com/Dhananjay810/To_Do_Duplicate",
         },
       ],
     },
@@ -221,7 +262,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "GitHub",
-          url: "https://github.com/Dhananjay810",
+          url: "https://github.com/Dhananjay810/Weather",
         },
       ],
     },
