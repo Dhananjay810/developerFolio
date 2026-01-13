@@ -22,8 +22,7 @@ const illustration = {
 const greeting = {
   username: "Dhananjay Kumar",
   title: "Hi all, I'm Dhananjay",
-  subTitle:
-    "Software Developer with experience in Android development, problem solving, and robotics/embedded systems. I build Android apps using Java & Kotlin and enjoy Competitive Programming and Computer Vision.",
+  subTitle:"Software Developer with expertise in Android app development and strong problem-solving skills. Experienced in building end-to-end mobile applications using Java, Kotlin, Jetpack Compose, Firebase, and REST APIs, with an interest in Competitive Programming, Robotics, and Computer Vision.",
   resumeLink: "resume.pdf",
   displayGreeting: true,
 };
