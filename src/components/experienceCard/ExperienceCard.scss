@@ -79,7 +79,12 @@
 
 .experience-roundedimg {
   position: absolute;
-  object-fit: cover;
+
+  /* ✅ FIX LOGO FIT */
+  object-fit: contain;
+  background-color: white;
+  padding: 6px;
+
   left: 0;
   right: 0;
   top: 7rem;
@@ -90,6 +95,7 @@
   box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
   border-radius: 50%;
 }
+
 
 .experience-text-role {
   text-align: center;
