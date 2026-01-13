@@ -51,13 +51,26 @@ const skillsSection = {
     "⚡ Computer Vision & Image Processing using YOLO and Python",
     "⚡ Robotics: Arduino, sensors, hardware debugging and mentoring",
   ],
-  softwareSkills: [
-    { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
-    { skillName: "Kotlin", fontAwesomeClassname: "fas fa-code" },
-    { skillName: "C++", fontAwesomeClassname: "fas fa-code" },
-    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "Firebase", fontAwesomeClassname: "fas fa-fire" },
-  ],
+softwareSkills: [
+  { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
+  { skillName: "Kotlin", fontAwesomeClassname: "fas fa-code" },
+  { skillName: "C++", fontAwesomeClassname: "fas fa-code" },
+  { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
+
+  { skillName: "Android", fontAwesomeClassname: "fab fa-android" },
+  { skillName: "Firebase", fontAwesomeClassname: "fas fa-fire" },
+  { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
+  { skillName: "GitHub", fontAwesomeClassname: "fab fa-github" },
+
+  { skillName: "Database", fontAwesomeClassname: "fas fa-database" },
+  { skillName: "API / Retrofit", fontAwesomeClassname: "fas fa-plug" },
+  { skillName: "Jetpack Compose", fontAwesomeClassname: "fas fa-layer-group" },
+  { skillName: "Room Database", fontAwesomeClassname: "fas fa-table" },
+
+  { skillName: "Computer Vision", fontAwesomeClassname: "fas fa-eye" },
+  { skillName: "Robotics", fontAwesomeClassname: "fas fa-robot" },
+],
+
   display: true,
 };
 
