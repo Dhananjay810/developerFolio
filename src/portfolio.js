@@ -185,8 +185,9 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: true,
-  display: true,
+  display: false,
 };
+
 
 // Some big projects you have worked on
 
